@@ -1,3 +1,9 @@
+参考链接：
+
+	[WebView使用详解（一）——Native与JS相互调用（附JadX反编译）](http://blog.csdn.net/harvic880925/article/details/51464687)
+
+	[Android：这是一份全面 & 详细的Webview使用攻略](https://www.jianshu.com/p/3c94ae673e2a)
+	
 #### 对于加载URL的总结：
 
 1、如果是在线网址记得添加网络访问权限

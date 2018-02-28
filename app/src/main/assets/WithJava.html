@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h6>欢迎光临</h6>
+    <input type="button" value="js调native" onclick="ok()">
+    <input type="button" value="js调native空参数" onclick="ok1()">
+    <input type="button" value="js调native多方法" onclick="ok2()">
+</head>
+<body>
+<script type="text/javascript">
+function ok() {
+ android.toastMessage("哈哈,i m webview msg");
+}
+function ok1() {
+ android.toastMessage();
+}
+function ok2() {
+ android.toast();
+}
+
+</script>
+</body>
+</html>

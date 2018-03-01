@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.example.zhaogaofei.webviewtest.activity.BaseUseActivity;
 import com.example.zhaogaofei.webviewtest.activity.JSWithWebViewActivity;
 import com.example.zhaogaofei.webviewtest.activity.JavaWithJSActivity;
+import com.example.zhaogaofei.webviewtest.activity.WebClientActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         two.setOnClickListener(this);
         Button three = (Button) findViewById(R.id.button_main_three);
         three.setOnClickListener(this);
+        Button four = (Button) findViewById(R.id.button_main_four);
+        four.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button_main_three:
                 skipPage(JavaWithJSActivity.class);
+                break;
+            case R.id.button_main_four:
+                skipPage(WebClientActivity.class);
                 break;
         }
     }

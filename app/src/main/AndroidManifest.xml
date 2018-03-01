@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".activity.BaseUseActivity" />
         <activity android:name=".activity.JSWithWebViewActivity" />
-        <activity android:name=".activity.JavaWithJSActivity"></activity>
+        <activity android:name=".activity.JavaWithJSActivity" />
+        <activity android:name=".activity.WebClientActivity"></activity>
     </application>
 
 </manifest>

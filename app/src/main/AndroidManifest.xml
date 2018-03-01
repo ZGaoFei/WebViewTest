@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.BaseUseActivity" />
-        <activity android:name=".activity.JSWithWebViewActivity"></activity>
+        <activity android:name=".activity.JSWithWebViewActivity" />
+        <activity android:name=".activity.JavaWithJSActivity"></activity>
     </application>
 
 </manifest>

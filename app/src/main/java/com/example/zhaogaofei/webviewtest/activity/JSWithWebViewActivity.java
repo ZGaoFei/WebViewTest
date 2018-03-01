@@ -11,6 +11,9 @@ import android.widget.Toast;
 
 import com.example.zhaogaofei.webviewtest.R;
 
+/**
+ * JS调用Java代码
+ */
 public class JSWithWebViewActivity extends AppCompatActivity {
     private static final String LOCAL_URL = "file:///android_asset/WithJava.html";
 

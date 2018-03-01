@@ -258,3 +258,7 @@
 
     // 在JS调用的Java方法前要加上@JavascriptInterface注解
     // 在JS中调用的方法名要和Java中方法名一致
+
+#### 通过Java调用JS代码
+
+
